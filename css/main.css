@@ -60,6 +60,15 @@ nav a {
   white-space: nowrap;
 }
 
+nav li:hover {
+  background-color: #6c8fe0;
+}
+
+nav a:hover {
+  background-color: #6c8fe0;
+  color: #fff;
+}
+
 @media only screen and (min-width: 25em) {
 
   html {
@@ -104,9 +113,26 @@ nav a {
     float: left;
   }
 
-  li {
+  ul {
     float: right;
+    width: 60%;
+  }
+
+  header {
+    overflow: hidden;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 130%;
+  }
+
+  nav {
     width: 20%;
   }
+
 
 }
